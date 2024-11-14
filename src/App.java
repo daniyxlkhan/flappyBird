@@ -15,6 +15,7 @@ public class App {
         FlappyBird flappyBird = new FlappyBird();
         frame.add(flappyBird); // adding JPanel to frame
         frame.pack(); // making dimension 360x640 excluding the title bar
+        flappyBird.requestFocus();
         frame.setVisible(true);
     }
 }
